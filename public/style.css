@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap');
 
 :root {
-    --primary-blue: #0a66c2;
-    --dark-bg: #050a14;
+    --primary-blue: #0ab0c2;
+    --dark-bg: #0b1833;
     --card-bg: #ffffff;
     --accent-cyan: #00f2fe;
     --accent-purple: #4facfe;
-    --text-main: #2f415e;
+    --text-main: #302f5e;
     --text-muted: #64748b;
     --glass: rgba(255, 255, 255, 0.03);
     --border: rgba(255, 255, 255, 0.1);
@@ -39,12 +39,7 @@ body {
 }
 
 header {
-    background: radial-gradient(circle at top right, #001f3f, var(--dark-bg));
-    color: white;
-    min-height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(135deg, #0a66c2, #4facfe, #00f2fe);
 }
 
 header::before {
@@ -205,7 +200,7 @@ nav ul li a:hover {
 }
 
 .dark-bg {
-    background: #020617;
+    background: linear-gradient(135deg, #0b1120, #0d1a2a);
     color: white;
     padding: 100px 10%;
     border-radius: 50px;
