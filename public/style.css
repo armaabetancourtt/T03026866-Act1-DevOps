@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap');
 
 :root {
-    --primary-blue: #0ab0c2;
+    --primary-blue: hsl(183, 61%, 47%);
     --dark-bg: #0b1833;
     --card-bg: #ffffff;
-    --accent-cyan: #00f2fe;
+    --accent-cyan: #00fed8;
     --accent-purple: #4facfe;
     --text-main: #302f5e;
     --text-muted: #64748b;
