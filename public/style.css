@@ -39,7 +39,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #0a66c2, #4facfe, #00f2fe);
+    background: linear-gradient(135deg, #780ac2, #554ffe, #5d00fe);
 }
 
 header::before {
